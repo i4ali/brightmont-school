@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 const Header = () => {
@@ -50,10 +51,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <img
-                className="h-16 w-auto"
-                src="/logo.svg"
-                alt="BrightMont Montessori Academy"
+              <Image
+                src="/Brightmount-logo.png"
+                alt="BrightMont The Montessori Academy"
+                width={250}
+                height={60}
+                className="h-14 w-auto"
+                priority
               />
             </Link>
           </div>
