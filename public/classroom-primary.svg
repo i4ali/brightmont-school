@@ -1,0 +1,19 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#FFFBEB"/>
+  <rect x="50" y="220" width="300" height="60" fill="#FEF3C7" rx="4"/>
+  <rect x="80" y="100" width="60" height="40" fill="#E0F2FE" rx="4"/>
+  <rect x="160" y="100" width="60" height="40" fill="#F0FDF4" rx="4"/>
+  <rect x="240" y="100" width="60" height="40" fill="#FEF7FF" rx="4"/>
+  <rect x="100" y="160" width="60" height="40" fill="#FECACA" rx="4"/>
+  <rect x="180" y="160" width="60" height="40" fill="#D1FAE5" rx="4"/>
+  <rect x="260" y="160" width="60" height="40" fill="#E0E7FF" rx="4"/>
+  <rect x="80" y="60" width="240" height="40" fill="#FEF3C7" rx="8"/>
+  <text x="200" y="85" font-family="Arial, sans-serif" font-size="16" fill="#92400E" text-anchor="middle">Primary Classroom</text>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">Academic Foundation • Ages 3 - 6 years</text>
+  <circle cx="110" cy="120" r="8" fill="#92400E"/>
+  <circle cx="190" cy="120" r="8" fill="#166534"/>
+  <circle cx="270" cy="120" r="8" fill="#7C2D12"/>
+  <circle cx="130" cy="180" r="8" fill="#DC2626"/>
+  <circle cx="210" cy="180" r="8" fill="#059669"/>
+  <circle cx="290" cy="180" r="8" fill="#3730A3"/>
+</svg>

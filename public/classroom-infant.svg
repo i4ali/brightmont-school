@@ -1,0 +1,15 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F0F9FF"/>
+  <rect x="50" y="220" width="300" height="60" fill="#E0F2FE" rx="4"/>
+  <circle cx="120" cy="180" r="25" fill="#FED7D7"/>
+  <circle cx="200" cy="180" r="25" fill="#D4EDDA"/>
+  <circle cx="280" cy="180" r="25" fill="#FFF3CD"/>
+  <rect x="80" y="60" width="240" height="40" fill="#DBEAFE" rx="8"/>
+  <text x="200" y="85" font-family="Arial, sans-serif" font-size="16" fill="#1E40AF" text-anchor="middle">Infant Classroom</text>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">Nurturing Environment • Ages 6 weeks - 18 months</text>
+  <rect x="60" y="120" width="40" height="30" fill="#FEF3C7" rx="4"/>
+  <rect x="120" y="120" width="40" height="30" fill="#FECACA" rx="4"/>
+  <rect x="180" y="120" width="40" height="30" fill="#D1FAE5" rx="4"/>
+  <rect x="240" y="120" width="40" height="30" fill="#E0E7FF" rx="4"/>
+  <rect x="300" y="120" width="40" height="30" fill="#FCE7F3" rx="4"/>
+</svg>

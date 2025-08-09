@@ -1,0 +1,14 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue square background -->
+  <rect width="32" height="32" rx="4" fill="#1E3A8A"/>
+  
+  <!-- Yellow/orange geometric design (simplified for small size) -->
+  <g transform="translate(4, 4)">
+    <!-- Main yellow swoosh/triangle -->
+    <path d="M0 24 L24 0 L24 8 L12 16 L24 24 L16 24 L4 16 L0 24 Z" fill="#FCD34D"/>
+    <!-- Orange accent -->
+    <path d="M16 24 L24 16 L24 24 Z" fill="#F97316"/>
+    <!-- Red/orange curved element -->
+    <ellipse cx="14" cy="18" rx="3" ry="1.5" fill="#DC2626"/>
+  </g>
+</svg>

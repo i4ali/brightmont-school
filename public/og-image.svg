@@ -1,0 +1,44 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F97316;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Decorative geometric elements inspired by logo -->
+  <g opacity="0.2">
+    <path d="M100 500 L300 300 L300 350 L200 450 L300 550 L250 550 L150 450 L100 500 Z" fill="#FCD34D"/>
+    <path d="M1000 150 L1150 50 L1150 80 L1075 125 L1150 200 L1120 200 L1050 150 L1000 150 Z" fill="#FCD34D"/>
+  </g>
+  
+  <!-- Logo recreation -->
+  <g transform="translate(50, 180)">
+    <!-- Blue square -->
+    <rect width="120" height="120" rx="8" fill="#1E3A8A"/>
+    <!-- Yellow geometric design -->
+    <g transform="translate(15, 15)">
+      <path d="M0 90 L90 0 L90 30 L45 60 L90 90 L60 90 L15 60 L0 90 Z" fill="#FCD34D"/>
+      <path d="M60 90 L90 60 L90 90 Z" fill="#F97316"/>
+      <ellipse cx="52" cy="67" rx="11" ry="6" fill="#DC2626"/>
+    </g>
+  </g>
+  
+  <!-- Text content -->
+  <g transform="translate(200, 180)">
+    <!-- "BrightMont" -->
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="54" font-weight="bold" fill="#1E3A8A">Bright</text>
+    <text x="210" y="60" font-family="Arial, sans-serif" font-size="54" font-weight="bold" fill="#F97316">Mont</text>
+    <!-- Subtitle -->
+    <text x="0" y="95" font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#000000" letter-spacing="4px">THE MONTESSORI ACADEMY</text>
+  </g>
+  
+  <!-- Main headline -->
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Quality Montessori Education</text>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="36" fill="#E0E7FF" text-anchor="middle">in Spring, Texas</text>
+  <text x="600" y="400" font-family="Arial, sans-serif" font-size="24" fill="#CBD5E1" text-anchor="middle">Ages 6 weeks to 6 years</text>
+  <text x="600" y="440" font-family="Arial, sans-serif" font-size="20" fill="#94A3B8" text-anchor="middle">Nurturing Environment • Experienced Teachers</text>
+</svg>

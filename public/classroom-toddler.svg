@@ -1,0 +1,17 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F0FDF4"/>
+  <rect x="50" y="220" width="300" height="60" fill="#DCFCE7" rx="4"/>
+  <circle cx="100" cy="150" r="20" fill="#FED7D7"/>
+  <circle cx="150" cy="150" r="20" fill="#D4EDDA"/>
+  <circle cx="200" cy="150" r="20" fill="#FFF3CD"/>
+  <circle cx="250" cy="150" r="20" fill="#E0E7FF"/>
+  <circle cx="300" cy="150" r="20" fill="#FCE7F3"/>
+  <rect x="80" y="60" width="240" height="40" fill="#D1FAE5" rx="8"/>
+  <text x="200" y="85" font-family="Arial, sans-serif" font-size="16" fill="#166534" text-anchor="middle">Toddler Classroom</text>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">Exploration & Independence • Ages 18 months - 3 years</text>
+  <rect x="70" y="120" width="25" height="20" fill="#FEF3C7" rx="2"/>
+  <rect x="130" y="120" width="25" height="20" fill="#FECACA" rx="2"/>
+  <rect x="190" y="120" width="25" height="20" fill="#D1FAE5" rx="2"/>
+  <rect x="250" y="120" width="25" height="20" fill="#E0E7FF" rx="2"/>
+  <rect x="310" y="120" width="25" height="20" fill="#FCE7F3" rx="2"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="500" height="350" viewBox="0 0 500 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#E0F2FE"/>
+  <rect x="50" y="200" width="400" height="120" fill="#DBEAFE" rx="8"/>
+  <rect x="80" y="180" width="80" height="40" fill="#1E40AF" rx="4"/>
+  <rect x="180" y="180" width="80" height="40" fill="#1E40AF" rx="4"/>
+  <rect x="280" y="180" width="80" height="40" fill="#1E40AF" rx="4"/>
+  <rect x="380" y="180" width="50" height="40" fill="#DC2626" rx="4"/>
+  <rect x="110" y="240" width="20" height="30" fill="#92400E" rx="2"/>
+  <rect x="150" y="240" width="20" height="30" fill="#92400E" rx="2"/>
+  <rect x="210" y="240" width="20" height="30" fill="#92400E" rx="2"/>
+  <rect x="250" y="240" width="20" height="30" fill="#92400E" rx="2"/>
+  <rect x="310" y="240" width="20" height="30" fill="#92400E" rx="2"/>
+  <rect x="350" y="240" width="20" height="30" fill="#92400E" rx="2"/>
+  <rect x="200" y="280" width="60" height="40" fill="#059669" rx="4"/>
+  <circle cx="100" cy="100" r="30" fill="#34D399" opacity="0.7"/>
+  <circle cx="150" cy="120" r="25" fill="#34D399" opacity="0.6"/>
+  <circle cx="200" cy="110" r="20" fill="#34D399" opacity="0.5"/>
+  <circle cx="350" cy="100" r="35" fill="#34D399" opacity="0.6"/>
+  <circle cx="400" cy="120" r="28" fill="#34D399" opacity="0.7"/>
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1E40AF" text-anchor="middle">BrightMont Montessori Academy</text>
+  <text x="250" y="70" font-family="Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">17710 S. Cypress Villas Dr, Spring, Texas</text>
+</svg>
