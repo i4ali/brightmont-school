@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Overlaid Text on Images */}
-      <section className="relative w-full h-96">
+      <section className="relative w-full h-[500px] md:h-[600px]">
         {/* Background Image Slider */}
         <div className="absolute inset-0 bg-gray-200 z-10">
           <ImageSlider
