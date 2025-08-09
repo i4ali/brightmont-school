@@ -35,21 +35,13 @@ export default function ResourceCenter() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link href="/resource-center/forms-documents" className="bg-gradient-to-br from-blue-400 to-blue-500 text-white rounded-3xl p-8 text-center hover:shadow-2xl transition-all transform hover:scale-105 block">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Link href="/resource-center/nutritious-meals" className="bg-gradient-to-br from-green-400 to-green-500 text-white rounded-3xl p-8 text-center hover:shadow-2xl transition-all transform hover:scale-105 block">
               <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-4xl">📄</span>
+                <span className="text-4xl">🍽️</span>
               </div>
-              <h3 className="text-2xl font-bold mb-3">Forms & Documents</h3>
-              <p className="text-blue-100 font-medium">Essential forms and enrollment documents</p>
-            </Link>
-
-            <Link href="/resource-center/calendar" className="bg-gradient-to-br from-green-400 to-green-500 text-white rounded-3xl p-8 text-center hover:shadow-2xl transition-all transform hover:scale-105 block">
-              <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-4xl">📅</span>
-              </div>
-              <h3 className="text-2xl font-bold mb-3">2024-2025 Calendar</h3>
-              <p className="text-green-100 font-medium">Important dates and events</p>
+              <h3 className="text-2xl font-bold mb-3">Nutritious Meals</h3>
+              <p className="text-green-100 font-medium">Family-style dining with fresh, healthy meals prepared daily</p>
             </Link>
 
             <Link href="/resource-center/parent-resources" className="bg-gradient-to-br from-purple-400 to-purple-500 text-white rounded-3xl p-8 text-center hover:shadow-2xl transition-all transform hover:scale-105 block">
@@ -57,7 +49,7 @@ export default function ResourceCenter() {
                 <span className="text-4xl">📚</span>
               </div>
               <h3 className="text-2xl font-bold mb-3">Parent Resources</h3>
-              <p className="text-purple-100 font-medium">Guides and support materials</p>
+              <p className="text-purple-100 font-medium">Local community resources and support guides</p>
             </Link>
 
             <Link href="/contact" className="bg-gradient-to-br from-orange-400 to-red-500 text-white rounded-3xl p-8 text-center hover:shadow-2xl transition-all transform hover:scale-105 block">
@@ -65,7 +57,7 @@ export default function ResourceCenter() {
                 <span className="text-4xl">🚨</span>
               </div>
               <h3 className="text-2xl font-bold mb-3">Emergency Info</h3>
-              <p className="text-orange-100 font-medium">Safety procedures and contacts</p>
+              <p className="text-orange-100 font-medium">Safety procedures and contact information</p>
             </Link>
           </div>
         </div>

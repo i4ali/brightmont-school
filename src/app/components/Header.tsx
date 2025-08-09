@@ -45,8 +45,7 @@ const Header = () => {
       href: '/resource-center',
       dropdown: [
         { name: 'Quick Access', href: '/resource-center' },
-        { name: 'Forms & Documents', href: '/resource-center/forms-documents' },
-        { name: '2024-2025 Calendar Year', href: '/resource-center/calendar' },
+        { name: 'Nutritious Meals', href: '/resource-center/nutritious-meals' },
         { name: 'Parent Resources', href: '/resource-center/parent-resources' },
       ],
     },
