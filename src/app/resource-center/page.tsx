@@ -52,12 +52,12 @@ export default function ResourceCenter() {
               <p className="text-purple-100 font-medium">Local community resources and support guides</p>
             </Link>
 
-            <Link href="/contact" className="bg-gradient-to-br from-orange-400 to-red-500 text-white rounded-3xl p-8 text-center hover:shadow-2xl transition-all transform hover:scale-105 block">
+            <Link href="/resource-center/teachers" className="bg-gradient-to-br from-yellow-400 to-orange-500 text-white rounded-3xl p-8 text-center hover:shadow-2xl transition-all transform hover:scale-105 block">
               <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-4xl">🚨</span>
+                <span className="text-4xl">👩‍🏫</span>
               </div>
-              <h3 className="text-2xl font-bold mb-3">Emergency Info</h3>
-              <p className="text-orange-100 font-medium">Safety procedures and contact information</p>
+              <h3 className="text-2xl font-bold mb-3">Teachers</h3>
+              <p className="text-orange-100 font-medium">Meet our trained Montessori certified educators</p>
             </Link>
           </div>
         </div>

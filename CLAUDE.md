@@ -78,11 +78,12 @@
 - Implemented hover animations and colorful card designs
 
 **Files Modified:**
-- `/src/app/components/Header.tsx` - Updated Resource Center dropdown navigation (removed Forms & Documents, replaced Calendar with Nutritious Meals)
-- `/src/app/resource-center/page.tsx` - Quick Access landing page
+- `/src/app/components/Header.tsx` - Updated Resource Center dropdown navigation (removed Quick Access, kept Nutritious Meals, Parent Resources, Teachers)
+- `/src/app/resource-center/page.tsx` - Quick Access landing page (kept for direct access via Resource Center main link)
 - `/src/app/resource-center/nutritious-meals/page.tsx` - NEW: Nutritious Meals page with family-style dining content
 - `/src/app/resource-center/parent-resources/page.tsx` - Local community resources directory
-- `/src/app/page.tsx` - Kid-friendly theme with colorful gradients and emojis
+- `/src/app/resource-center/teachers/page.tsx` - NEW: Teachers page with Montessori educator information and Math-Puzzle.jpg image
+- `/src/app/page.tsx` - Kid-friendly theme with colorful gradients, replaced "Montessori Plus Education" with "Child & Day Care Center" with sun icon
 
 **Current Status:**
 - ✅ Resource Center fully reorganized with dropdown navigation

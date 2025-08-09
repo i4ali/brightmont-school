@@ -44,9 +44,9 @@ const Header = () => {
       name: 'Resource Center',
       href: '/resource-center',
       dropdown: [
-        { name: 'Quick Access', href: '/resource-center' },
         { name: 'Nutritious Meals', href: '/resource-center/nutritious-meals' },
         { name: 'Parent Resources', href: '/resource-center/parent-resources' },
+        { name: 'Teachers', href: '/resource-center/teachers' },
       ],
     },
     { name: 'Contact Us', href: '/contact' },
