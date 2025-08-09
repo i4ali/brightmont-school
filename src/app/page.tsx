@@ -27,26 +27,32 @@ export default function Home() {
         </div>
         
         {/* Overlay Content */}
-        <div className="relative z-20 bg-gradient-to-t from-black/40 via-transparent to-black/40 flex items-center justify-center h-full pointer-events-none">
+        <div className="relative z-20 bg-gradient-to-br from-purple-500/30 via-blue-400/20 to-green-400/30 flex items-center justify-center h-full pointer-events-none">
           <div className="text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl pointer-events-auto">
-            <p className="text-xl md:text-2xl lg:text-3xl font-semibold mb-6 drop-shadow-lg">
-              Quality Montessori education for children ages 6 weeks to 6 years
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 drop-shadow-lg">
+              <span className="text-purple-200">happy</span><br/>
+              <span className="text-green-300">happens</span><br/>
+              <span className="text-orange-300">here!</span>
+            </h1>
+            <p className="text-lg md:text-xl mb-4 drop-shadow-md font-medium">
+              From <span className="text-cyan-300 font-bold">infancy</span> to <span className="text-cyan-300 font-bold">preschool</span>, we make early education
             </p>
-            <p className="text-lg md:text-xl mb-8 drop-shadow-md">
-              Located in Spring, Texas • Open 6:30 AM - 6:00 PM
+            <p className="text-lg md:text-xl mb-8 drop-shadow-md font-medium">
+              joyful, engaging and fun so children are happy to
+              <span className="text-cyan-300 font-bold"> LEARN</span>, <span className="text-green-300 font-bold">PLAY</span> and <span className="text-purple-300 font-bold">GROW</span>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/contact"
-                className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg"
+                className="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-8 py-4 rounded-full text-lg font-bold hover:from-purple-700 hover:to-purple-800 transition-all transform hover:scale-105 shadow-xl"
               >
-                Schedule a Tour
+                📅 Schedule Tour
               </Link>
               <Link
                 href="/admissions"
-                className="bg-white text-blue-600 border-2 border-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg"
+                className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:from-orange-600 hover:to-orange-700 transition-all transform hover:scale-105 shadow-xl"
               >
-                Learn About Admissions
+                🌟 Learn About Admissions
               </Link>
             </div>
           </div>
@@ -54,230 +60,233 @@ export default function Home() {
       </section>
 
       {/* Montessori Plus Education */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-br from-cyan-50 via-blue-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Montessori Plus Education
+            <h2 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">
+              🌈 Montessori Plus Education
             </h2>
-            <p className="text-lg text-gray-600 max-w-4xl mx-auto">
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto font-medium">
               Our unique educational approach combines traditional Montessori methods with modern learning techniques, 
               fostering independence, creativity, and a lifelong love of learning in every child.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-shadow border-4 border-blue-200">
+              <div className="bg-gradient-to-br from-blue-400 to-blue-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <span className="text-3xl">📚</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Child-Led Learning</h3>
-              <p className="text-gray-600">Children guide their own educational journey with teacher support</p>
+              <h3 className="text-2xl font-bold mb-3 text-blue-600">Child-Led Learning</h3>
+              <p className="text-gray-700 font-medium">Children guide their own educational journey with teacher support</p>
             </div>
-            <div className="text-center">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
-                </svg>
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-shadow border-4 border-green-200">
+              <div className="bg-gradient-to-br from-green-400 to-green-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <span className="text-3xl">👥</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Mixed-Age Classrooms</h3>
-              <p className="text-gray-600">Collaborative learning environment that mirrors real-world social dynamics</p>
+              <h3 className="text-2xl font-bold mb-3 text-green-600">Mixed-Age Classrooms</h3>
+              <p className="text-gray-700 font-medium">Collaborative learning environment that mirrors real-world social dynamics</p>
             </div>
-            <div className="text-center">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
-                </svg>
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-shadow border-4 border-purple-200">
+              <div className="bg-gradient-to-br from-purple-400 to-purple-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <span className="text-3xl">💪</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Independence Focus</h3>
-              <p className="text-gray-600">Building confidence and self-reliance through hands-on experiences</p>
+              <h3 className="text-2xl font-bold mb-3 text-purple-600">Independence Focus</h3>
+              <p className="text-gray-700 font-medium">Building confidence and self-reliance through hands-on experiences</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Age Groups */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gradient-to-r from-yellow-50 via-orange-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Programs by Age Group
+            <h2 className="text-4xl md:text-5xl font-bold text-orange-600 mb-6">
+              🌈 Programs by Age Group
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-700 font-medium">
               Specialized programs designed for each developmental stage
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link href="/programs/infant" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold mb-2 text-blue-600">Infants</h3>
-              <p className="text-gray-600 mb-4">6 weeks - 18 months</p>
-              <p className="text-sm text-gray-500">Nurturing care focused on sensory development and basic skills</p>
+            <Link href="/programs/infant" className="bg-gradient-to-br from-blue-400 to-blue-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
+              <div className="text-center">
+                <span className="text-4xl mb-4 block">🍼</span>
+                <h3 className="text-2xl font-bold mb-3">Infants</h3>
+                <p className="mb-4 font-semibold text-blue-100">6 weeks - 18 months</p>
+                <p className="text-blue-100">Nurturing care focused on sensory development and basic skills</p>
+              </div>
             </Link>
-            <Link href="/programs/toddler" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold mb-2 text-green-600">Toddlers</h3>
-              <p className="text-gray-600 mb-4">18 months - 3 years</p>
-              <p className="text-sm text-gray-500">Independence building with language and motor skill development</p>
+            <Link href="/programs/toddler" className="bg-gradient-to-br from-green-400 to-green-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
+              <div className="text-center">
+                <span className="text-4xl mb-4 block">🚀</span>
+                <h3 className="text-2xl font-bold mb-3">Toddlers</h3>
+                <p className="mb-4 font-semibold text-green-100">18 months - 3 years</p>
+                <p className="text-green-100">Independence building with language and motor skill development</p>
+              </div>
             </Link>
-            <Link href="/programs/primary" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold mb-2 text-purple-600">Pre-K</h3>
-              <p className="text-gray-600 mb-4">3 - 6 years</p>
-              <p className="text-sm text-gray-500">Academic readiness with social and emotional growth</p>
+            <Link href="/programs/primary" className="bg-gradient-to-br from-purple-400 to-purple-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
+              <div className="text-center">
+                <span className="text-4xl mb-4 block">🎆</span>
+                <h3 className="text-2xl font-bold mb-3">Pre-K</h3>
+                <p className="mb-4 font-semibold text-purple-100">3 - 6 years</p>
+                <p className="text-purple-100">Academic readiness with social and emotional growth</p>
+              </div>
             </Link>
-            <Link href="/programs/summer-camp" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold mb-2 text-yellow-600">Summer Camp</h3>
-              <p className="text-gray-600 mb-4">All ages</p>
-              <p className="text-sm text-gray-500">Fun summer activities with continued learning</p>
+            <Link href="/programs/summer-camp" className="bg-gradient-to-br from-orange-400 to-yellow-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
+              <div className="text-center">
+                <span className="text-4xl mb-4 block">☀️</span>
+                <h3 className="text-2xl font-bold mb-3">Summer Camp</h3>
+                <p className="mb-4 font-semibold text-yellow-100">All ages</p>
+                <p className="text-yellow-100">Fun summer activities with continued learning</p>
+              </div>
             </Link>
           </div>
         </div>
       </section>
 
       {/* Enrollment Process */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-br from-green-50 via-cyan-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Simple Enrollment Process
+            <h2 className="text-4xl md:text-5xl font-bold text-green-600 mb-6">
+              🌟 Simple Enrollment Process
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-700 font-medium">
               Four easy steps to join our BrightMont family
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+              <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold shadow-lg">
                 1
               </div>
-              <h3 className="text-lg font-semibold mb-2">Discover</h3>
-              <p className="text-gray-600">Schedule a tour and learn about our programs</p>
+              <h3 className="text-2xl font-bold mb-3 text-blue-600">🔍 Discover</h3>
+              <p className="text-gray-700 font-medium">Schedule a tour and learn about our programs</p>
             </div>
-            <div className="text-center">
-              <div className="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+              <div className="bg-gradient-to-br from-green-500 to-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold shadow-lg">
                 2
               </div>
-              <h3 className="text-lg font-semibold mb-2">Apply</h3>
-              <p className="text-gray-600">Submit your application and required documents</p>
+              <h3 className="text-2xl font-bold mb-3 text-green-600">📝 Apply</h3>
+              <p className="text-gray-700 font-medium">Submit your application and required documents</p>
             </div>
-            <div className="text-center">
-              <div className="bg-purple-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+              <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold shadow-lg">
                 3
               </div>
-              <h3 className="text-lg font-semibold mb-2">Schedule</h3>
-              <p className="text-gray-600">Meet with our team for application review</p>
+              <h3 className="text-2xl font-bold mb-3 text-purple-600">📅 Schedule</h3>
+              <p className="text-gray-700 font-medium">Meet with our team for application review</p>
             </div>
-            <div className="text-center">
-              <div className="bg-yellow-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+              <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold shadow-lg">
                 4
               </div>
-              <h3 className="text-lg font-semibold mb-2">Enroll</h3>
-              <p className="text-gray-600">Complete enrollment and fee assessment</p>
+              <h3 className="text-2xl font-bold mb-3 text-orange-600">🎆 Enroll</h3>
+              <p className="text-gray-700 font-medium">Complete enrollment and fee assessment</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Enrichment Programs */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gradient-to-br from-purple-50 via-pink-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Enrichment Programs
+            <h2 className="text-4xl md:text-5xl font-bold text-pink-600 mb-6">
+              🎆 Enrichment Programs
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-xl text-gray-700 font-medium">
               Additional activities that enhance your child's learning experience
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            <div className="bg-white p-4 rounded-lg shadow-md text-center">
-              <div className="text-green-600 mb-2">🌿</div>
-              <h4 className="font-semibold">Nature Learning</h4>
+            <div className="bg-gradient-to-br from-green-400 to-green-500 text-white p-6 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-center">
+              <div className="text-4xl mb-3">🌿</div>
+              <h4 className="font-bold text-lg">Nature Learning</h4>
             </div>
-            <div className="bg-white p-4 rounded-lg shadow-md text-center">
-              <div className="text-blue-600 mb-2">🎨</div>
-              <h4 className="font-semibold">Art Activities</h4>
+            <div className="bg-gradient-to-br from-blue-400 to-blue-500 text-white p-6 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-center">
+              <div className="text-4xl mb-3">🎨</div>
+              <h4 className="font-bold text-lg">Art Activities</h4>
             </div>
-            <div className="bg-white p-4 rounded-lg shadow-md text-center">
-              <div className="text-purple-600 mb-2">🎵</div>
-              <h4 className="font-semibold">Music & Dance</h4>
+            <div className="bg-gradient-to-br from-purple-400 to-purple-500 text-white p-6 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-center">
+              <div className="text-4xl mb-3">🎵</div>
+              <h4 className="font-bold text-lg">Music & Dance</h4>
             </div>
-            <div className="bg-white p-4 rounded-lg shadow-md text-center">
-              <div className="text-red-600 mb-2">🗣️</div>
-              <h4 className="font-semibold">Language</h4>
+            <div className="bg-gradient-to-br from-red-400 to-red-500 text-white p-6 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-center">
+              <div className="text-4xl mb-3">🗣️</div>
+              <h4 className="font-bold text-lg">Language</h4>
             </div>
-            <div className="bg-white p-4 rounded-lg shadow-md text-center">
-              <div className="text-orange-600 mb-2">⚽</div>
-              <h4 className="font-semibold">Soccer</h4>
+            <div className="bg-gradient-to-br from-orange-400 to-orange-500 text-white p-6 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-center">
+              <div className="text-4xl mb-3">⚽</div>
+              <h4 className="font-bold text-lg">Soccer</h4>
             </div>
           </div>
         </div>
       </section>
 
       {/* Why Choose BrightMont */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Why Choose BrightMont?
+            <h2 className="text-4xl md:text-5xl font-bold text-indigo-600 mb-6">
+              ✨ Why Choose BrightMont?
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 2L3 7v11a1 1 0 001 1h12a1 1 0 001-1V7l-7-5z" />
-                </svg>
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 border-4 border-blue-200">
+              <div className="bg-gradient-to-br from-blue-400 to-blue-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <span className="text-3xl">🍽️</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Nutritious Meals</h3>
-              <p className="text-gray-600">Daily hot meals prepared with care</p>
+              <h3 className="text-2xl font-bold mb-3 text-blue-600">Nutritious Meals</h3>
+              <p className="text-gray-700 font-medium">Daily hot meals prepared with care</p>
             </div>
-            <div className="text-center">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
-                </svg>
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 border-4 border-green-200">
+              <div className="bg-gradient-to-br from-green-400 to-green-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <span className="text-3xl">👶</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Small Class Sizes</h3>
-              <p className="text-gray-600">Individual attention for every child</p>
+              <h3 className="text-2xl font-bold mb-3 text-green-600">Small Class Sizes</h3>
+              <p className="text-gray-700 font-medium">Individual attention for every child</p>
             </div>
-            <div className="text-center">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                </svg>
+            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 border-4 border-purple-200">
+              <div className="bg-gradient-to-br from-purple-400 to-purple-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <span className="text-3xl">🎆</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Experienced Teachers</h3>
-              <p className="text-gray-600">Qualified educators who care</p>
+              <h3 className="text-2xl font-bold mb-3 text-purple-600">Experienced Teachers</h3>
+              <p className="text-gray-700 font-medium">Qualified educators who care</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Testimonial */}
-      <section className="py-16 bg-blue-50">
+      <section className="py-16 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <blockquote className="text-xl md:text-2xl text-gray-700 mb-6 italic">
-            "The teachers and the care they provide cannot be compared to any other daycare or Montessori school around."
-          </blockquote>
-          <cite className="text-lg font-semibold text-gray-900">
-            - Tara Gonzalez, M. Ed. Dyslexia Specialist
-          </cite>
+          <div className="bg-white p-8 rounded-3xl shadow-2xl">
+            <span className="text-6xl mb-6 block">😍</span>
+            <blockquote className="text-2xl md:text-3xl text-gray-800 mb-6 italic font-medium">
+              "The teachers and the care they provide cannot be compared to any other daycare or Montessori school around."
+            </blockquote>
+            <cite className="text-xl font-bold text-purple-600">
+              - Tara Gonzalez, M. Ed. Dyslexia Specialist
+            </cite>
+          </div>
         </div>
       </section>
 
       {/* Newsletter Signup */}
-      <section className="py-16 bg-gray-900 text-white">
+      <section className="py-16 bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Stay Connected</h2>
-          <p className="text-lg mb-8">Get updates about school events and educational tips</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">📱 Stay Connected</h2>
+          <p className="text-xl mb-8 font-medium">Get updates about school events and educational tips</p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="flex-1 px-4 py-3 rounded-full text-gray-900 focus:outline-none focus:ring-4 focus:ring-yellow-400 shadow-lg"
             />
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              Subscribe
+            <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-8 py-3 rounded-full font-bold hover:from-orange-600 hover:to-yellow-600 transition-all transform hover:scale-105 shadow-xl">
+              ✨ Subscribe
             </button>
           </div>
         </div>

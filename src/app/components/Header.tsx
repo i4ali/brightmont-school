@@ -40,7 +40,16 @@ const Header = () => {
       ],
     },
     { name: 'School Life', href: '/school-life' },
-    { name: 'Resource Center', href: '/resource-center' },
+    {
+      name: 'Resource Center',
+      href: '/resource-center',
+      dropdown: [
+        { name: 'Quick Access', href: '/resource-center' },
+        { name: 'Forms & Documents', href: '/resource-center/forms-documents' },
+        { name: '2024-2025 Calendar Year', href: '/resource-center/calendar' },
+        { name: 'Parent Resources', href: '/resource-center/parent-resources' },
+      ],
+    },
     { name: 'Contact Us', href: '/contact' },
   ];
 
