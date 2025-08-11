@@ -75,17 +75,17 @@ export default function Admissions() {
               </div>
             </Link>
 
-            <Link href="/admissions/fees" className="group bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+            <Link href="/contact" className="group bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
               <div className="text-center">
                 <div className="bg-yellow-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:bg-yellow-700 transition-colors">
                   4
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Enroll</h3>
                 <p className="text-gray-600 mb-6">
-                  Complete enrollment with fee assessment and welcome to the BrightMont family!
+                  Contact us to complete enrollment and welcome to the BrightMont family!
                 </p>
                 <span className="text-yellow-600 font-semibold group-hover:text-yellow-700">
-                  View Fees →
+                  Contact Us →
                 </span>
               </div>
             </Link>

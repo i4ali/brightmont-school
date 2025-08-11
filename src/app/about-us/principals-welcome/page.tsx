@@ -18,22 +18,7 @@ export default function PrincipalsWelcome() {
       {/* Principal's Message */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row gap-12 items-start">
-            {/* Principal's Photo Placeholder */}
-            <div className="flex-shrink-0">
-              <div className="w-64 h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <svg className="w-20 h-20 mx-auto mb-2 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"/>
-                  </svg>
-                  <p className="text-gray-500">Principal Photo</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Message Content */}
-            <div className="flex-1">
-              <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg max-w-none">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Welcome to BrightMont!</h2>
                 
                 <p className="text-gray-700 mb-6">
@@ -64,8 +49,6 @@ export default function PrincipalsWelcome() {
                   Warmest regards,<br/>
                   <strong>The BrightMont Administration Team</strong>
                 </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

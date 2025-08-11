@@ -25,7 +25,6 @@ const Header = () => {
         { name: 'Discover', href: '/admissions/discover' },
         { name: 'Apply', href: '/admissions/apply' },
         { name: 'Schedule', href: '/admissions/schedule' },
-        { name: 'Fees', href: '/admissions/fees' },
       ],
     },
     {
@@ -60,7 +59,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image
-                src="/Brightmount-logo.png"
+                src="/brightmont-center-logo-5.png"
                 alt="BrightMont The Montessori Academy"
                 width={250}
                 height={60}
