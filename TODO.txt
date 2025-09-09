@@ -1,0 +1,41 @@
+Home Page slides - show mixed race picture
+About Us:
+1) remove principal, philosophy, use aboutus-school.md for that page.
+2) also make pdf of aboutus-school.md and put in Apply section as pdf
+Admissions - remove group information sessions, remove preparing for your visit, remove times to observe
+use this timing for tour 9:00 am to 11:00 am AND 2:00 to 6:00 pm
+Apply: 
+1) remove Check payment option, change 'Note: Fee is applied toward first month's tuition upon enrollment' this to say first week
+2) remove additional for school-age subsection
+3) get complete application form from this website https://www.hhs.texas.gov/regulations/forms/2000-2999/form-2935-admission-information
+4) Anny will send tuition rate sheet
+5) Below are the enrollment application requirments only
+Complete Brightmont Enrollment | Word | PDF
+Completed Student Emergency Contact Form | Word | PDF
+Brightmont School Philosophy | Word | PDF
+Brightmont Fees | Word | PDF
+BMS admin FARE emergency-care-plan –  Download PDF
+Doctor’s Clearance Certificate
+Schedule:
+1) use exact schedule from old website on new website
+Programs:
+1) remove AAP guidelines from infant page
+2) change 'Written' daily reports to through application under partnership with parents for infant
+3) remove food preparation and care of environment under practical life area for toddler
+4) remove size discrimination from sensorial area for toddler
+5) remove dollhouse from art & creative expression for toddler
+6) pre-k program requires major update through AI to include texas rising and frog street 
+7) change age to 3-5 in pre-k program. 
+8) keep kindergarten readiness in pre-k program (dont change)
+9) change 6+ to 4+ in school age program
+10) remove age-appropriate programming from school age program
+11) remove schedule from summer camp and programming for all ages
+School Life:
+remove it completely
+Resource Center:
+1) change morning snacks to breakfast in nutritious meals
+2) change montessori wording to something nice from AI in teachers
+Contact US:
+move FAQ to its own tab
+
+

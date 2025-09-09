@@ -27,10 +27,10 @@ export default function Home() {
         </div>
         
         {/* Overlay Content */}
-        <div className="relative z-20 bg-gradient-to-br from-purple-500/30 via-blue-400/20 to-green-400/30 flex items-center justify-center h-full pointer-events-none">
+        <div className="relative z-20 bg-gradient-to-br from-blue-500/25 via-cyan-400/20 to-green-400/30 flex items-center justify-center h-full pointer-events-none">
           <div className="text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl pointer-events-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 drop-shadow-lg">
-              <span className="text-purple-200">happy</span><br/>
+              <span className="text-cyan-200">happy</span><br/>
               <span className="text-green-300">happens</span><br/>
               <span className="text-orange-300">here!</span>
             </h1>
@@ -39,12 +39,12 @@ export default function Home() {
             </p>
             <p className="text-lg md:text-xl mb-8 drop-shadow-md font-medium">
               joyful, engaging and fun so children are happy to
-              <span className="text-cyan-300 font-bold"> LEARN</span>, <span className="text-green-300 font-bold">PLAY</span> and <span className="text-purple-300 font-bold">GROW</span>.
+              <span className="text-cyan-300 font-bold"> LEARN</span>, <span className="text-green-300 font-bold">PLAY</span> and <span className="text-blue-300 font-bold">GROW</span>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/contact"
-                className="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-8 py-4 rounded-full text-lg font-bold hover:from-purple-700 hover:to-purple-800 transition-all transform hover:scale-105 shadow-xl"
+                className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:from-blue-700 hover:to-cyan-700 transition-all transform hover:scale-105 shadow-xl"
               >
                 📅 Schedule Tour
               </Link>
