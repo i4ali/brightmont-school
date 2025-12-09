@@ -7,11 +7,11 @@ export default function Admissions() {
       <section className="bg-gradient-to-br from-blue-50 to-green-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Admissions
+            <h1 className="text-4xl md:text-5xl font-bold text-blue-700 mb-6">
+              📋 Admissions
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Begin your child's Montessori journey at BrightMont Montessori Academy
+              Begin your child's learning journey at BrightMont Learning Center
             </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Admissions() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Discover</h3>
                 <p className="text-gray-600 mb-6">
-                  Schedule a tour to experience our Montessori environment firsthand and meet our dedicated teachers.
+                  Schedule a tour to experience our learning environment firsthand and meet our dedicated teachers.
                 </p>
                 <span className="text-blue-600 font-semibold group-hover:text-blue-700">
                   Schedule Tour →
@@ -101,7 +101,7 @@ export default function Admissions() {
               Why Choose BrightMont?
             </h2>
             <p className="text-lg text-gray-600">
-              Discover what makes our Montessori academy special
+              Discover what makes our learning center special
             </p>
           </div>
           
@@ -112,8 +112,8 @@ export default function Admissions() {
                   <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Authentic Montessori Education</h3>
-              <p className="text-gray-600 text-sm">Certified Montessori teachers using traditional materials and methods to foster independence and love of learning.</p>
+              <h3 className="text-xl font-semibold mb-3">Child-Centered Education</h3>
+              <p className="text-gray-600 text-sm">Certified teachers using hands-on materials and methods to foster independence and love of learning.</p>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
@@ -253,7 +253,7 @@ export default function Admissions() {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="text-center mb-6">
               <blockquote className="text-xl text-gray-700 italic mb-4">
-                "The teachers and the care they provide cannot be compared to any other daycare or Montessori school around. Our daughter has flourished in this environment and we couldn't be happier with our choice."
+                "The teachers and the care they provide cannot be compared to any other daycare or learning center around. Our daughter has flourished in this environment and we couldn't be happier with our choice."
               </blockquote>
               <cite className="text-lg font-semibold text-gray-900">
                 - Tara Gonzalez, M. Ed. Dyslexia Specialist
@@ -267,7 +267,7 @@ export default function Admissions() {
       <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Ready to Begin Your Child's Montessori Journey?
+            Ready to Begin Your Child's Learning Journey?
           </h2>
           <p className="text-xl mb-8">
             Contact us today to schedule a tour and learn more about our programs

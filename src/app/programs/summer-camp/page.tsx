@@ -5,9 +5,9 @@ export default function SummerCamp() {
       <section className="bg-gradient-to-br from-yellow-50 to-yellow-100 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="text-8xl mb-6">☀️</div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Summer Camp Program
+            <div className="text-8xl mb-6">🎨</div>
+            <h1 className="text-4xl md:text-5xl font-bold text-yellow-700 mb-6">
+              🎨 Summer Camp Program
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-4">
               Fun-filled summer adventures combining learning with play
@@ -168,137 +168,6 @@ export default function SummerCamp() {
               <div className="text-4xl mb-3">🏕️</div>
               <h3 className="font-semibold text-orange-800 mb-2">Camping Fun</h3>
               <p className="text-sm text-gray-600">Outdoor skills, nature crafts, and wilderness exploration</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Daily Schedule */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              A Day at Summer Camp
-            </h2>
-            <p className="text-lg text-gray-600">
-              Structured activities balanced with free play and exploration time
-            </p>
-          </div>
-          
-          <div className="space-y-6">
-            <div className="flex items-start bg-white p-6 rounded-lg shadow-sm">
-              <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-                <span className="text-yellow-600 font-bold text-sm">7:30</span>
-              </div>
-              <div className="flex-1">
-                <h3 className="text-lg font-semibold mb-2">Arrival & Morning Activities</h3>
-                <p className="text-gray-600 text-sm">Welcome circle, sharing time, and choice of quiet morning activities to ease into the day.</p>
-              </div>
-            </div>
-            
-            <div className="flex items-start bg-white p-6 rounded-lg shadow-sm">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-                <span className="text-blue-600 font-bold text-sm">9:00</span>
-              </div>
-              <div className="flex-1">
-                <h3 className="text-lg font-semibold mb-2">Theme Activities</h3>
-                <p className="text-gray-600 text-sm">Weekly theme-based activities including crafts, experiments, and special projects related to our adventure.</p>
-              </div>
-            </div>
-            
-            <div className="flex items-start bg-white p-6 rounded-lg shadow-sm">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-                <span className="text-green-600 font-bold text-sm">10:30</span>
-              </div>
-              <div className="flex-1">
-                <h3 className="text-lg font-semibold mb-2">Outdoor Exploration</h3>
-                <p className="text-gray-600 text-sm">Nature walks, playground time, water play, or outdoor games depending on weather and theme.</p>
-              </div>
-            </div>
-            
-            <div className="flex items-start bg-white p-6 rounded-lg shadow-sm">
-              <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-                <span className="text-purple-600 font-bold text-sm">12:00</span>
-              </div>
-              <div className="flex-1">
-                <h3 className="text-lg font-semibold mb-2">Lunch & Rest</h3>
-                <p className="text-gray-600 text-sm">Nutritious lunch followed by quiet time, stories, or rest for younger campers.</p>
-              </div>
-            </div>
-            
-            <div className="flex items-start bg-white p-6 rounded-lg shadow-sm">
-              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-                <span className="text-red-600 font-bold text-sm">2:00</span>
-              </div>
-              <div className="flex-1">
-                <h3 className="text-lg font-semibold mb-2">Creative Time</h3>
-                <p className="text-gray-600 text-sm">Arts and crafts, music and movement, dramatic play, or special visitor presentations.</p>
-              </div>
-            </div>
-            
-            <div className="flex items-start bg-white p-6 rounded-lg shadow-sm">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-                <span className="text-orange-600 font-bold text-sm">3:30</span>
-              </div>
-              <div className="flex-1">
-                <h3 className="text-lg font-semibold mb-2">Free Play & Wrap-up</h3>
-                <p className="text-gray-600 text-sm">Choice time, reflection on the day's adventures, and preparation for pick-up.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Age Groups */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Programming for All Ages
-            </h2>
-            <p className="text-lg text-gray-600">
-              Activities adapted for different developmental stages and interests
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-blue-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold text-blue-600 mb-4">Little Explorers</h3>
-              <p className="text-gray-600 mb-4 font-semibold">Ages 2-4</p>
-              <ul className="space-y-2 text-sm text-gray-700">
-                <li>• Sensory exploration activities</li>
-                <li>• Simple crafts and finger painting</li>
-                <li>• Water table and sandbox play</li>
-                <li>• Story time and sing-alongs</li>
-                <li>• Shorter activity periods with more transitions</li>
-                <li>• Rest time and quiet activities</li>
-              </ul>
-            </div>
-
-            <div className="bg-green-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold text-green-600 mb-4">Adventure Seekers</h3>
-              <p className="text-gray-600 mb-4 font-semibold">Ages 5-8</p>
-              <ul className="space-y-2 text-sm text-gray-700">
-                <li>• Structured theme activities and projects</li>
-                <li>• Beginning science experiments</li>
-                <li>• Complex arts and crafts</li>
-                <li>• Cooperative games and team activities</li>
-                <li>• Nature exploration and gardening</li>
-                <li>• Beginning cooking activities</li>
-              </ul>
-            </div>
-
-            <div className="bg-yellow-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold text-yellow-600 mb-4">Junior Counselors</h3>
-              <p className="text-gray-600 mb-4 font-semibold">Ages 9+</p>
-              <ul className="space-y-2 text-sm text-gray-700">
-                <li>• Leadership opportunities with younger campers</li>
-                <li>• Advanced STEM projects and experiments</li>
-                <li>• Creative writing and storytelling</li>
-                <li>• Cooking and meal preparation</li>
-                <li>• Special interest clubs and activities</li>
-                <li>• Community service projects</li>
-              </ul>
             </div>
           </div>
         </div>

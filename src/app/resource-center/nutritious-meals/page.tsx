@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Nutritious Meals | Resource Center | BrightMont Montessori Academy',
+  title: 'Nutritious Meals | Resource Center | BrightMont Learning Center',
   description: 'We offer nutritious meals for kids in a family style at our School Kitchen, prepared daily. Our menus are nutritious and tasty for kids to enjoy.',
 };
 
@@ -69,7 +69,7 @@ export default function NutritiousMeals() {
             </p>
 
             <p className="text-lg">
-              We provide <strong>morning snacks</strong>, <strong>lunch</strong> and <strong>after snacks</strong>. 
+              We provide <strong>breakfast</strong>, <strong>lunch</strong> and <strong>afternoon snacks</strong>. 
               We will also honor specific request for meals or have a parent bring the meal for their child if wishes to do so.
             </p>
           </div>
@@ -77,9 +77,9 @@ export default function NutritiousMeals() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl p-6 text-center border-2 border-blue-300">
               <div className="text-4xl mb-3">🥐</div>
-              <h3 className="text-xl font-bold text-blue-800 mb-2">Morning Snacks</h3>
+              <h3 className="text-xl font-bold text-blue-800 mb-2">Breakfast</h3>
               <p className="text-blue-700 text-sm">
-                Healthy start to the day with nutritious morning snacks
+                Healthy start to the day with a nutritious breakfast
               </p>
             </div>
 

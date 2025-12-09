@@ -105,7 +105,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-center">
           <p className="text-gray-400">
-            © 2024 BrightMont Montessori Academy. All rights reserved.
+            © 2024 BrightMont Learning Center. All rights reserved.
           </p>
         </div>
       </div>

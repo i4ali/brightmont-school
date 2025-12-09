@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Parent Resources | Resource Center | BrightMont Montessori Academy',
-  description: 'Helpful guides and resources to support your child\'s Montessori education at home including parent handbook and development milestones.',
+  title: 'Parent Resources | Resource Center | BrightMont Learning Center',
+  description: 'Helpful guides and resources to support your child\'s education at home including parent handbook and development milestones.',
 };
 
 export default function ParentResources() {
@@ -13,11 +13,11 @@ export default function ParentResources() {
       <div className="bg-gradient-to-br from-purple-600 to-pink-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
               📚 Parent Resources
             </h1>
             <p className="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto">
-              Helpful guides and resources to support your child's Montessori education at home.
+              Helpful guides and resources to support your child's education at home.
             </p>
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function ParentResources() {
       <div className="py-16 bg-gradient-to-br from-purple-50 via-pink-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-6">
               🏥 Local Pediatric Offices
             </h2>
             <p className="text-xl text-gray-700 font-medium max-w-3xl mx-auto">
@@ -67,7 +67,7 @@ export default function ParentResources() {
       <div className="py-16 bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-green-600 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-green-600 mb-6">
               🤝 Family Counselor
             </h2>
             <p className="text-xl text-gray-700 font-medium max-w-3xl mx-auto">
@@ -95,7 +95,7 @@ export default function ParentResources() {
       <div className="py-16 bg-gradient-to-br from-yellow-50 via-orange-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-orange-600 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-orange-600 mb-6">
               🍎 Food Banks
             </h2>
             <p className="text-xl text-gray-700 font-medium max-w-3xl mx-auto">
@@ -117,7 +117,7 @@ export default function ParentResources() {
       <div className="py-16 bg-gradient-to-br from-cyan-50 via-blue-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-cyan-600 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-cyan-600 mb-6">
               🌳 Area Parks
             </h2>
             <p className="text-xl text-gray-700 font-medium max-w-3xl mx-auto">
@@ -148,7 +148,7 @@ export default function ParentResources() {
       <div className="py-16 bg-gradient-to-br from-red-50 via-pink-50 to-rose-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-red-600 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-6">
               🚨 Area Emergencies
             </h2>
             <p className="text-xl text-gray-700 font-medium max-w-3xl mx-auto">
@@ -179,7 +179,7 @@ export default function ParentResources() {
       <div className="py-16 bg-gradient-to-br from-indigo-50 via-purple-50 to-violet-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-indigo-600 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-indigo-600 mb-6">
               🏫 Local Elementary Schools
             </h2>
             <p className="text-xl text-gray-700 font-medium max-w-3xl mx-auto">
@@ -217,7 +217,7 @@ export default function ParentResources() {
               🤔 Have Questions?
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
-              Our team is here to support you with resources, answer questions, and help you make the most of your child's Montessori experience.
+              Our team is here to support you with resources, answer questions, and help you make the most of your child's experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

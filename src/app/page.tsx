@@ -27,9 +27,9 @@ export default function Home() {
         </div>
         
         {/* Overlay Content */}
-        <div className="relative z-20 bg-gradient-to-br from-blue-500/25 via-cyan-400/20 to-green-400/30 flex items-center justify-center h-full pointer-events-none">
+        <div className="relative z-20 flex items-center justify-center h-full pointer-events-none">
           <div className="text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl pointer-events-auto">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 drop-shadow-lg">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
               <span className="text-cyan-200">happy</span><br/>
               <span className="text-green-300">happens</span><br/>
               <span className="text-orange-300">here!</span>
@@ -59,15 +59,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Montessori Plus Education */}
+      {/* Learning Plus Education */}
       <section className="py-16 bg-gradient-to-br from-cyan-50 via-blue-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-purple-700 mb-6">
               ☀️ Child & Day Care Center
             </h2>
             <p className="text-xl text-gray-700 max-w-4xl mx-auto font-medium">
-              Our unique educational approach combines traditional Montessori methods with modern learning techniques, 
+              Our unique educational approach combines child-centered methods with modern learning techniques, 
               fostering independence, creativity, and a lifelong love of learning in every child.
             </p>
           </div>
@@ -101,7 +101,7 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-r from-yellow-50 via-orange-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-orange-600 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-orange-600 mb-6">
               🌈 Programs by Age Group
             </h2>
             <p className="text-xl text-gray-700 font-medium">
@@ -111,7 +111,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link href="/programs/infant" className="bg-gradient-to-br from-blue-400 to-blue-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
               <div className="text-center">
-                <span className="text-4xl mb-4 block">🍼</span>
+                <span className="text-4xl mb-4 block">👶</span>
                 <h3 className="text-2xl font-bold mb-3">Infants</h3>
                 <p className="mb-4 font-semibold text-blue-100">6 weeks - 18 months</p>
                 <p className="text-blue-100">Nurturing care focused on sensory development and basic skills</p>
@@ -119,7 +119,7 @@ export default function Home() {
             </Link>
             <Link href="/programs/toddler" className="bg-gradient-to-br from-green-400 to-green-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
               <div className="text-center">
-                <span className="text-4xl mb-4 block">🚀</span>
+                <span className="text-4xl mb-4 block">🖍️</span>
                 <h3 className="text-2xl font-bold mb-3">Toddlers</h3>
                 <p className="mb-4 font-semibold text-green-100">18 months - 3 years</p>
                 <p className="text-green-100">Independence building with language and motor skill development</p>
@@ -127,15 +127,15 @@ export default function Home() {
             </Link>
             <Link href="/programs/primary" className="bg-gradient-to-br from-purple-400 to-purple-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
               <div className="text-center">
-                <span className="text-4xl mb-4 block">🎆</span>
+                <span className="text-4xl mb-4 block">✏️</span>
                 <h3 className="text-2xl font-bold mb-3">Pre-K</h3>
-                <p className="mb-4 font-semibold text-purple-100">3 - 6 years</p>
+                <p className="mb-4 font-semibold text-purple-100">3 - 5 years</p>
                 <p className="text-purple-100">Academic readiness with social and emotional growth</p>
               </div>
             </Link>
             <Link href="/programs/summer-camp" className="bg-gradient-to-br from-orange-400 to-yellow-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
               <div className="text-center">
-                <span className="text-4xl mb-4 block">☀️</span>
+                <span className="text-4xl mb-4 block">🎨</span>
                 <h3 className="text-2xl font-bold mb-3">Summer Camp</h3>
                 <p className="mb-4 font-semibold text-yellow-100">All ages</p>
                 <p className="text-yellow-100">Fun summer activities with continued learning</p>
@@ -149,7 +149,7 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-br from-green-50 via-cyan-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-green-600 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-green-600 mb-6">
               🌟 Simple Enrollment Process
             </h2>
             <p className="text-xl text-gray-700 font-medium">
@@ -182,7 +182,7 @@ export default function Home() {
               <div className="bg-gradient-to-br from-orange-500 to-yellow-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold shadow-lg">
                 4
               </div>
-              <h3 className="text-2xl font-bold mb-3 text-orange-600">🎆 Enroll</h3>
+              <h3 className="text-2xl font-bold mb-3 text-orange-600">🎓 Enroll</h3>
               <p className="text-gray-700 font-medium">Complete enrollment and fee assessment</p>
             </div>
           </div>
@@ -193,8 +193,8 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-br from-purple-50 via-pink-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-pink-600 mb-6">
-              🎆 Enrichment Programs
+            <h2 className="text-3xl md:text-4xl font-bold text-pink-600 mb-6">
+              🎯 Enrichment Programs
             </h2>
             <p className="text-xl text-gray-700 font-medium">
               Additional activities that enhance your child's learning experience
@@ -229,7 +229,7 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-indigo-600 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-indigo-600 mb-6">
               ✨ Why Choose BrightMont?
             </h2>
           </div>
@@ -250,7 +250,7 @@ export default function Home() {
             </div>
             <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 border-4 border-purple-200">
               <div className="bg-gradient-to-br from-purple-400 to-purple-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <span className="text-3xl">🎆</span>
+                <span className="text-3xl">👩‍🏫</span>
               </div>
               <h3 className="text-2xl font-bold mb-3 text-purple-600">Experienced Teachers</h3>
               <p className="text-gray-700 font-medium">Qualified educators who care</p>
@@ -265,7 +265,7 @@ export default function Home() {
           <div className="bg-white p-8 rounded-3xl shadow-2xl">
             <span className="text-6xl mb-6 block">😍</span>
             <blockquote className="text-2xl md:text-3xl text-gray-800 mb-6 italic font-medium">
-              "The teachers and the care they provide cannot be compared to any other daycare or Montessori school around."
+              "The teachers and the care they provide cannot be compared to any other daycare or learning center around."
             </blockquote>
             <cite className="text-xl font-bold text-purple-600">
               - Tara Gonzalez, M. Ed. Dyslexia Specialist
@@ -277,13 +277,13 @@ export default function Home() {
       {/* Newsletter Signup */}
       <section className="py-16 bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">📱 Stay Connected</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">📱 Stay Connected</h2>
           <p className="text-xl mb-8 font-medium">Get updates about school events and educational tips</p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-full text-gray-900 focus:outline-none focus:ring-4 focus:ring-yellow-400 shadow-lg"
+              className="flex-1 px-4 py-3 rounded-full text-gray-900 bg-white border-4 border-white focus:outline-none focus:ring-4 focus:ring-yellow-400 shadow-lg"
             />
             <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-8 py-3 rounded-full font-bold hover:from-orange-600 hover:to-yellow-600 transition-all transform hover:scale-105 shadow-xl">
               ✨ Subscribe

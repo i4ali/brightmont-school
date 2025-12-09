@@ -9,15 +9,7 @@ const Header = () => {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    {
-      name: 'About Us',
-      href: '/about-us',
-      dropdown: [
-        { name: 'School', href: '/about-us/school' },
-        { name: "Principal's Welcome", href: '/about-us/principals-welcome' },
-        { name: 'Philosophy', href: '/about-us/philosophy' },
-      ],
-    },
+    { name: 'About Us', href: '/about-us/school' },
     {
       name: 'Admissions',
       href: '/admissions',
@@ -33,12 +25,11 @@ const Header = () => {
       dropdown: [
         { name: 'Infant (6 weeks - 18 months)', href: '/programs/infant' },
         { name: 'Toddler (18 months - 3 years)', href: '/programs/toddler' },
-        { name: 'Primary (3-6 years)', href: '/programs/primary' },
+        { name: 'Primary (3-5 years)', href: '/programs/primary' },
         { name: 'School Age', href: '/programs/school-age' },
         { name: 'Summer Camp', href: '/programs/summer-camp' },
       ],
     },
-    { name: 'School Life', href: '/school-life' },
     {
       name: 'Resource Center',
       href: '/resource-center',
@@ -48,6 +39,7 @@ const Header = () => {
         { name: 'Teachers', href: '/resource-center/teachers' },
       ],
     },
+    { name: 'FAQ', href: '/faq' },
     { name: 'Contact Us', href: '/contact' },
   ];
 
@@ -60,7 +52,7 @@ const Header = () => {
             <Link href="/" className="flex items-center">
               <Image
                 src="/brightmont-center-logo-5.png"
-                alt="BrightMont The Montessori Academy"
+                alt="BrightMont Learning Center"
                 width={250}
                 height={60}
                 className="h-14 w-auto"

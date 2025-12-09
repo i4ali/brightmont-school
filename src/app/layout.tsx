@@ -9,12 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "BrightMont Montessori Academy - Spring, TX",
-  description: "Quality Montessori education for children ages 6 weeks to 6 years in Spring, Texas. Nurturing environment with experienced teachers and small class sizes.",
-  keywords: "Montessori school, Spring TX, early childhood education, daycare, preschool, infant care, toddler program, pre-K, after school care, summer camp",
-  authors: [{ name: "BrightMont Montessori Academy" }],
-  creator: "BrightMont Montessori Academy",
-  publisher: "BrightMont Montessori Academy",
+  title: "BrightMont Learning Center - Spring, TX",
+  description: "Quality child-centered education for children ages 6 weeks to 6 years in Spring, Texas. Nurturing environment with experienced teachers and small class sizes.",
+  keywords: "learning center, Spring TX, early childhood education, daycare, preschool, infant care, toddler program, pre-K, after school care, summer camp",
+  authors: [{ name: "BrightMont Learning Center" }],
+  creator: "BrightMont Learning Center",
+  publisher: "BrightMont Learning Center",
   formatDetection: {
     email: false,
     address: false,
@@ -28,22 +28,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://brightmontschool.com',
-    title: 'BrightMont Montessori Academy - Spring, TX',
-    description: 'Quality Montessori education for children ages 6 weeks to 6 years in Spring, Texas. Nurturing environment with experienced teachers and small class sizes.',
-    siteName: 'BrightMont Montessori Academy',
+    title: 'BrightMont Learning Center - Spring, TX',
+    description: 'Quality child-centered education for children ages 6 weeks to 6 years in Spring, Texas. Nurturing environment with experienced teachers and small class sizes.',
+    siteName: 'BrightMont Learning Center',
     images: [
       {
         url: '/og-image.svg',
         width: 1200,
         height: 630,
-        alt: 'BrightMont Montessori Academy - Spring, Texas',
+        alt: 'BrightMont Learning Center - Spring, Texas',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BrightMont Montessori Academy - Spring, TX',
-    description: 'Quality Montessori education for children ages 6 weeks to 6 years in Spring, Texas.',
+    title: 'BrightMont Learning Center - Spring, TX',
+    description: 'Quality child-centered education for children ages 6 weeks to 6 years in Spring, Texas.',
     images: ['/og-image.svg'],
   },
   robots: {
@@ -75,9 +75,9 @@ export default function RootLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    "name": "BrightMont Montessori Academy",
+    "name": "BrightMont Learning Center",
     "alternateName": "BrightMont School",
-    "description": "Quality Montessori education for children ages 6 weeks to 6 years in Spring, Texas. Nurturing environment with experienced teachers and small class sizes.",
+    "description": "Quality child-centered education for children ages 6 weeks to 6 years in Spring, Texas. Nurturing environment with experienced teachers and small class sizes.",
     "url": "https://brightmontschool.com",
     "logo": "https://brightmontschool.com/logo.svg",
     "image": "https://brightmontschool.com/og-image.svg",
@@ -132,7 +132,7 @@ export default function RootLayout({
         {
           "@type": "EducationalOccupationalProgram",
           "name": "Pre-K Program",
-          "description": "Montessori education for children 3 to 6 years",
+          "description": "Child-centered education for children 3 to 6 years",
           "timeToComplete": "P3Y"
         },
         {

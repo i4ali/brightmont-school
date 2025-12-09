@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Resource Center | BrightMont Montessori Academy',
-  description: 'Access parent resources, forms, school calendar, policies, and helpful information for BrightMont Montessori Academy families.',
+  title: 'Resource Center | BrightMont Learning Center',
+  description: 'Access parent resources, forms, school calendar, policies, and helpful information for BrightMont Learning Center families.',
 };
 
 export default function ResourceCenter() {
@@ -13,11 +13,11 @@ export default function ResourceCenter() {
       <div className="bg-gradient-to-br from-purple-600 to-blue-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
               📚 Resource Center
             </h1>
             <p className="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto">
-              Everything you need to support your child's Montessori journey at BrightMont, all in one convenient location.
+              Everything you need to support your child's learning journey at BrightMont, all in one convenient location.
             </p>
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function ResourceCenter() {
       <div className="py-16 bg-gradient-to-br from-cyan-50 via-blue-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-purple-700 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-purple-700 mb-6">
               🚀 Quick Access
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto font-medium">
@@ -57,7 +57,7 @@ export default function ResourceCenter() {
                 <span className="text-4xl">👩‍🏫</span>
               </div>
               <h3 className="text-2xl font-bold mb-3">Teachers</h3>
-              <p className="text-orange-100 font-medium">Meet our trained Montessori certified educators</p>
+              <p className="text-orange-100 font-medium">Meet our trained certified educators</p>
             </Link>
           </div>
         </div>
