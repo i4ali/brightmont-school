@@ -63,6 +63,51 @@ export default function FAQ() {
               <h3 className="text-lg font-bold text-green-600 mb-2">🚗 Do you provide transportation?</h3>
               <p className="text-gray-700 font-medium">We coordinate pick-up from local elementary schools for our School Age program. Contact us for details about transportation options in your area.</p>
             </div>
+
+            <div className="bg-gradient-to-br from-red-50 to-orange-50 p-6 rounded-3xl border-4 border-red-200">
+              <h3 className="text-lg font-bold text-red-600 mb-2">📖 What curriculum do you use?</h3>
+              <p className="text-gray-700 font-medium">We use the research-based Frog Street Curriculum and are a Texas Rising Star certified program. Our curriculum covers six learning domains: Language & Early Literacy, Mathematics, Science & Discovery, Social Studies, Social-Emotional Learning, and Creative Arts.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 p-6 rounded-3xl border-4 border-indigo-200">
+              <h3 className="text-lg font-bold text-indigo-600 mb-2">👩‍🏫 What are your teachers' qualifications?</h3>
+              <p className="text-gray-700 font-medium">All our teachers are certified early childhood educators with specialized training in our curriculum. Every staff member is CPR and First Aid certified, has completed background checks, and participates in ongoing professional development.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 p-6 rounded-3xl border-4 border-teal-200">
+              <h3 className="text-lg font-bold text-teal-600 mb-2">📱 How will I know what my child is doing each day?</h3>
+              <p className="text-gray-700 font-medium">We provide daily reports through our parent app, including feeding schedules, nap times, activities, and photos. We also have an open-door policy for parent visits and offer regular parent-teacher conferences.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-rose-50 to-pink-50 p-6 rounded-3xl border-4 border-rose-200">
+              <h3 className="text-lg font-bold text-rose-600 mb-2">🥜 Can you accommodate food allergies or dietary restrictions?</h3>
+              <p className="text-gray-700 font-medium">Yes! Our kitchen staff can accommodate allergies, dietary restrictions, and special requests. We're USDA Child and Adult Care Food Program compliant and work with families to ensure every child's nutritional needs are met.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-6 rounded-3xl border-4 border-amber-200">
+              <h3 className="text-lg font-bold text-amber-600 mb-2">🚽 How do you handle potty training?</h3>
+              <p className="text-gray-700 font-medium">We support toilet learning with a gentle, individualized approach based on each child's readiness. Our toddler teachers work closely with parents to maintain consistency between home and school, and we always handle accidents with patience and encouragement.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-violet-50 to-purple-50 p-6 rounded-3xl border-4 border-violet-200">
+              <h3 className="text-lg font-bold text-violet-600 mb-2">✅ Are you a licensed childcare facility?</h3>
+              <p className="text-gray-700 font-medium">Yes, we are fully licensed by the Texas Health and Human Services Commission and are a Texas Rising Star certified program, which recognizes high-quality childcare providers that exceed minimum state standards.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-lime-50 to-green-50 p-6 rounded-3xl border-4 border-lime-200">
+              <h3 className="text-lg font-bold text-lime-600 mb-2">🤝 Do you accept childcare assistance programs?</h3>
+              <p className="text-gray-700 font-medium">Yes, we are an active Child Care Services (CCS) provider and accept childcare subsidies. Contact our office to discuss eligibility and enrollment with assistance programs.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-sky-50 to-blue-50 p-6 rounded-3xl border-4 border-sky-200">
+              <h3 className="text-lg font-bold text-sky-600 mb-2">🎓 Do you offer free Pre-K?</h3>
+              <p className="text-gray-700 font-medium">We participate in the Texas Pre-K Partnership program, which provides free Pre-K for eligible 3 and 4-year-olds. Contact us to learn about eligibility requirements and available spots.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-fuchsia-50 to-pink-50 p-6 rounded-3xl border-4 border-fuchsia-200">
+              <h3 className="text-lg font-bold text-fuchsia-600 mb-2">👀 Can I visit or observe my child during the day?</h3>
+              <p className="text-gray-700 font-medium">Absolutely! We have an open-door policy and welcome parent visits anytime. You're always welcome to observe your child in their classroom, join us for lunch, or participate in special activities.</p>
+            </div>
           </div>
 
           {/* Contact CTA */}

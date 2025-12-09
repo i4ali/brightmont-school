@@ -60,6 +60,22 @@ export default function Apply() {
                   <li>• Special needs or considerations</li>
                   <li>• Emergency contacts and medical information</li>
                 </ul>
+                <div className="mt-4 bg-green-50 p-4 rounded-2xl">
+                  <a
+                    href="https://www.hhs.texas.gov/sites/default/files/documents/laws-regulations/forms/2935/2935.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-full font-bold hover:from-green-600 hover:to-green-700 transition-all shadow-lg"
+                  >
+                    📥 Download Application Form (PDF)
+                  </a>
+                  <p className="text-xs text-gray-600 mt-2 font-medium">
+                    Official Texas HHS Form 2935 - Admission Information
+                  </p>
+                  <p className="text-xs text-orange-600 mt-2 font-medium">
+                    ⚠️ Note: This form may not open in your browser. Right-click the button and select "Save link as..." to download, then open with Adobe Reader.
+                  </p>
+                </div>
               </div>
             </div>
 
