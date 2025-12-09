@@ -105,32 +105,32 @@ export default function Home() {
               <div className="text-center">
                 <span className="text-4xl mb-4 block">👶</span>
                 <h3 className="text-2xl font-bold mb-3">Infants</h3>
-                <p className="mb-4 font-semibold text-blue-100">6 weeks - 18 months</p>
-                <p className="text-blue-100">Nurturing care focused on sensory development and basic skills</p>
+                <p className="mb-4 font-semibold text-white">6 weeks - 18 months</p>
+                <p className="text-white/90 drop-shadow-md">Nurturing care focused on sensory development and basic skills</p>
               </div>
             </Link>
             <Link href="/programs/toddler" className="bg-gradient-to-br from-green-400 to-green-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
               <div className="text-center">
                 <span className="text-4xl mb-4 block">🖍️</span>
                 <h3 className="text-2xl font-bold mb-3">Toddlers</h3>
-                <p className="mb-4 font-semibold text-green-100">18 months - 3 years</p>
-                <p className="text-green-100">Independence building with language and motor skill development</p>
+                <p className="mb-4 font-semibold text-white">18 months - 3 years</p>
+                <p className="text-white/90 drop-shadow-md">Independence building with language and motor skill development</p>
               </div>
             </Link>
             <Link href="/programs/primary" className="bg-gradient-to-br from-purple-400 to-purple-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
               <div className="text-center">
                 <span className="text-4xl mb-4 block">✏️</span>
                 <h3 className="text-2xl font-bold mb-3">Pre-K</h3>
-                <p className="mb-4 font-semibold text-purple-100">3 - 5 years</p>
-                <p className="text-purple-100">Academic readiness with social and emotional growth</p>
+                <p className="mb-4 font-semibold text-white">3 - 5 years</p>
+                <p className="text-white/90 drop-shadow-md">Academic readiness with social and emotional growth</p>
               </div>
             </Link>
             <Link href="/programs/summer-camp" className="bg-gradient-to-br from-orange-400 to-yellow-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
               <div className="text-center">
                 <span className="text-4xl mb-4 block">🎨</span>
                 <h3 className="text-2xl font-bold mb-3">Summer Camp</h3>
-                <p className="mb-4 font-semibold text-yellow-100">All ages</p>
-                <p className="text-yellow-100">Fun summer activities with continued learning</p>
+                <p className="mb-4 font-semibold text-white">All ages</p>
+                <p className="text-white/90 drop-shadow-md">Fun summer activities with continued learning</p>
               </div>
             </Link>
           </div>
