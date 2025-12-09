@@ -70,20 +70,13 @@ export default function Home() {
               fostering independence, creativity, and a lifelong love of learning in every child.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-shadow border-4 border-blue-200">
               <div className="bg-gradient-to-br from-blue-400 to-blue-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <span className="text-3xl">📚</span>
               </div>
               <h3 className="text-2xl font-bold mb-3 text-blue-600">Child-Led Learning</h3>
               <p className="text-gray-700 font-medium">Children guide their own educational journey with teacher support</p>
-            </div>
-            <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-shadow border-4 border-green-200">
-              <div className="bg-gradient-to-br from-green-400 to-green-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                <span className="text-3xl">👥</span>
-              </div>
-              <h3 className="text-2xl font-bold mb-3 text-green-600">Mixed-Age Classrooms</h3>
-              <p className="text-gray-700 font-medium">Collaborative learning environment that mirrors real-world social dynamics</p>
             </div>
             <div className="text-center bg-white p-6 rounded-3xl shadow-lg hover:shadow-xl transition-shadow border-4 border-purple-200">
               <div className="bg-gradient-to-br from-purple-400 to-purple-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
