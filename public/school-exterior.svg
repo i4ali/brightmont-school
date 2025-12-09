@@ -17,6 +17,6 @@
   <circle cx="200" cy="110" r="20" fill="#34D399" opacity="0.5"/>
   <circle cx="350" cy="100" r="35" fill="#34D399" opacity="0.6"/>
   <circle cx="400" cy="120" r="28" fill="#34D399" opacity="0.7"/>
-  <text x="250" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1E40AF" text-anchor="middle">BrightMont Montessori Academy</text>
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1E40AF" text-anchor="middle">BrightMont Learning Center</text>
   <text x="250" y="70" font-family="Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">17710 S. Cypress Villas Dr, Spring, Texas</text>
 </svg>

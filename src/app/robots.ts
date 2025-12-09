@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://brightmontschool.com/sitemap.xml',
+    sitemap: 'https://brightmontlearning.com/sitemap.xml',
   }
 }

@@ -6,7 +6,7 @@ export default function School() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-blue-700 mb-6">
-              🏫 BrightMont Early Learning Academy
+              🏫 BrightMont Learning Center
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-6">
               Excellence in Early Childhood Education Through Quality Standards
@@ -29,11 +29,11 @@ export default function School() {
           <h2 className="text-3xl md:text-4xl font-bold text-purple-600 mb-6">📚 About Our Academy</h2>
 
           <p className="text-gray-700 mb-6 text-lg font-medium">
-            Located in the heart of Spring, Texas, BrightMont Early Learning Academy has been serving families with children ages 6 weeks to 12 years. Our school is designed to provide a warm, nurturing environment where children receive developmentally appropriate education that prepares them for kindergarten and beyond.
+            Located in the heart of Spring, Texas, BrightMont Learning Center has been serving families with children ages 6 weeks to 12 years. Our school is designed to provide a warm, nurturing environment where children receive developmentally appropriate education that prepares them for kindergarten and beyond.
           </p>
 
           <p className="text-gray-700 mb-8 font-medium">
-            BrightMont Early Learning Academy provides a high-quality, nurturing environment where children develop school readiness skills, social-emotional growth, and a strong foundation for lifelong learning success.
+            BrightMont Learning Center provides a high-quality, nurturing environment where children develop school readiness skills, social-emotional growth, and a strong foundation for lifelong learning success.
           </p>
         </div>
       </section>
@@ -465,7 +465,7 @@ export default function School() {
       <section className="py-16 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-xl mb-8 font-medium">
-            At BrightMont Early Learning Academy, we understand that quality early childhood education sets the foundation for lifelong success. Through our Texas Rising Star certification and Pre-K Partnership opportunities, we provide families with peace of mind knowing their children receive the highest quality care and education available in Texas.
+            At BrightMont Learning Center, we understand that quality early childhood education sets the foundation for lifelong success. Through our Texas Rising Star certification and Pre-K Partnership opportunities, we provide families with peace of mind knowing their children receive the highest quality care and education available in Texas.
           </p>
           <a
             href="/contact"

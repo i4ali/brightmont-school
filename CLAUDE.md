@@ -32,7 +32,7 @@
 **1. Missing H1 Tag on Homepage** - **HIGH PRIORITY**
 - **Issue**: `/src/app/page.tsx` has NO H1 tag whatsoever
 - **Impact**: Critical SEO violation - every page must have exactly one H1
-- **Fix Required**: Add H1 to hero section with "BrightMont Montessori Academy - Spring, Texas"
+- **Fix Required**: Add H1 to hero section with "BrightMont Learning Center - Spring, Texas"
 
 **2. Page-Specific Metadata Missing** - **HIGH PRIORITY**  
 - **Issue**: Only 2 of 18 pages have unique metadata exports

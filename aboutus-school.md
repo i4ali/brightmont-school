@@ -1,11 +1,11 @@
-# **BrightMont Early Learning Academy**
+# **BrightMont Learning Center**
 *Excellence in Early Childhood Education Through Quality Standards*
 
-BrightMont Early Learning Academy provides a high-quality, nurturing environment where children develop school readiness skills, social-emotional growth, and a strong foundation for lifelong learning success.
+BrightMont Learning Center provides a high-quality, nurturing environment where children develop school readiness skills, social-emotional growth, and a strong foundation for lifelong learning success.
 
-## **About BrightMont Early Learning Academy**
+## **About BrightMont Learning Center**
 
-Located in the heart of Spring, Texas, BrightMont Early Learning Academy has been serving families with children ages 6 weeks to 12 years. Our school is designed to provide a warm, nurturing environment where children receive developmentally appropriate education that prepares them for kindergarten and beyond.
+Located in the heart of Spring, Texas, BrightMont Learning Center has been serving families with children ages 6 weeks to 12 years. Our school is designed to provide a warm, nurturing environment where children receive developmentally appropriate education that prepares them for kindergarten and beyond.
 
 **Texas Rising Star Certified Program**
 We are proud to maintain our Texas Rising Star certification, demonstrating our commitment to quality that exceeds state minimum standards. Our certification reflects excellence in:
@@ -122,7 +122,7 @@ Email: info@brightmontschool.com
 ## **Quality Assurance & Accreditation**
 
 **Texas Rising Star Certification**
-BrightMont Early Learning Academy maintains Texas Rising Star certification, reflecting our commitment to:
+BrightMont Learning Center maintains Texas Rising Star certification, reflecting our commitment to:
 - Exceeding state licensing requirements
 - Continuous quality improvement
 - Enhanced payment rates for families receiving child care assistance
@@ -143,4 +143,4 @@ We continuously strive for improvement through:
 
 ---
 
-*At BrightMont Early Learning Academy, we understand that quality early childhood education sets the foundation for lifelong success. Through our Texas Rising Star certification and Pre-K Partnership opportunities, we provide families with peace of mind knowing their children receive the highest quality care and education available in Texas.*
+*At BrightMont Learning Center, we understand that quality early childhood education sets the foundation for lifelong success. Through our Texas Rising Star certification and Pre-K Partnership opportunities, we provide families with peace of mind knowing their children receive the highest quality care and education available in Texas.*

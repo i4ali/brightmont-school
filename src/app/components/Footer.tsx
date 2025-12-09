@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* School Info */}
           <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4">BrightMont School</h3>
+            <h3 className="text-lg font-semibold mb-4">BrightMont Learning Center</h3>
             <p className="text-gray-300 mb-2">
               17710 S. Cypress Villas Dr<br />
               Spring, Texas 77379
