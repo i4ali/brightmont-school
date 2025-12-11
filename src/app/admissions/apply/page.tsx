@@ -90,7 +90,6 @@ export default function Apply() {
                   <div>
                     <strong>Required for All Ages:</strong>
                     <ul className="mt-1 space-y-1">
-                      <li>• Child's birth certificate</li>
                       <li>• Current immunization records</li>
                       <li>• Recent physical examination</li>
                       <li>• Emergency contact forms</li>
@@ -195,11 +194,6 @@ export default function Apply() {
               <h3 className="text-2xl font-bold text-green-600 mb-6">📚 Personal & Academic Documents</h3>
 
               <div className="space-y-6">
-                <div className="bg-white p-4 rounded-2xl">
-                  <h4 className="font-bold text-green-700 mb-2">Birth Certificate</h4>
-                  <p className="text-gray-700 text-sm font-medium">Certified copy of child's birth certificate to verify age and identity.</p>
-                </div>
-
                 <div className="bg-white p-4 rounded-2xl">
                   <h4 className="font-bold text-green-700 mb-2">Previous School Records (if applicable)</h4>
                   <p className="text-gray-700 text-sm mb-2 font-medium">For children with previous school experience:</p>

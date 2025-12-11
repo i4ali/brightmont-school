@@ -192,10 +192,6 @@ export default function Admissions() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2">•</span>
-                    <span>Child's birth certificate</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">•</span>
                     <span>Current immunization records</span>
                   </li>
                   <li className="flex items-start">
