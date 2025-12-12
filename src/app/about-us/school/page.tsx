@@ -26,7 +26,7 @@ export default function School() {
       {/* About Section */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-purple-600 mb-6">📚 About Our Academy</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-purple-600 mb-6">📚 About Our Learning Center</h2>
 
           <p className="text-gray-700 mb-6 text-lg font-medium">
             Located in the heart of Spring, Texas, BrightMont Learning Center has been serving families with children ages 6 weeks to 12 years. Our school is designed to provide a warm, nurturing environment where children receive developmentally appropriate education that prepares them for kindergarten and beyond.

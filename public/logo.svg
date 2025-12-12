@@ -20,6 +20,6 @@
     <text x="280" y="80" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#F97316">Mont</text>
     
     <!-- "THE MONTESSORI ACADEMY" subtitle -->
-    <text x="0" y="130" font-family="Arial, sans-serif" font-size="32" font-weight="normal" fill="#000000" letter-spacing="8px">THE MONTESSORI ACADEMY</text>
+    <text x="0" y="130" font-family="Arial, sans-serif" font-size="32" font-weight="normal" fill="#000000" letter-spacing="8px">THE MONTESSORI LEARNING CENTER</text>
   </g>
 </svg>

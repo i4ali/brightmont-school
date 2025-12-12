@@ -33,7 +33,7 @@
     <text x="0" y="60" font-family="Arial, sans-serif" font-size="54" font-weight="bold" fill="#1E3A8A">Bright</text>
     <text x="210" y="60" font-family="Arial, sans-serif" font-size="54" font-weight="bold" fill="#F97316">Mont</text>
     <!-- Subtitle -->
-    <text x="0" y="95" font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#000000" letter-spacing="4px">THE MONTESSORI ACADEMY</text>
+    <text x="0" y="95" font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#000000" letter-spacing="4px">THE MONTESSORI LEARNING CENTER</text>
   </g>
   
   <!-- Main headline -->
