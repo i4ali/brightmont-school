@@ -212,7 +212,7 @@ export default function Home() {
               <p className="text-white/90">Movement and mindfulness to build balance, focus and calm.</p>
             </div>
             <div className="bg-gradient-to-br from-red-400 to-red-500 text-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-center">
-              <div className="text-4xl mb-4">🇪🇸</div>
+              <div className="text-4xl mb-4">💬</div>
               <h4 className="font-bold text-xl mb-3">Spanish Language Exposure</h4>
               <p className="text-white/90">Fun language exposure through songs, stories and play.</p>
             </div>
